@@ -1,29 +1,27 @@
-Binary Search Tree made with ruby
+# Binary Search Tree made with ruby
 
-Available methods
+## Available methods
 
-#build_tree takes in an array an makes a balanced tree, ignoring duplicates
+* _build_tree_ takes in an array an makes a balanced tree, ignoring duplicates
 
-#insert insert a value to an already made tree to its appropriate place
+* _insert_ insert a value to an already made tree to its appropriate place
 
-#delete deletes a value from the tree
+* _delete_ deletes a value from the tree
 
-#find returns the node containing the specified value
+* _find_ returns the node containing the specified value
 
-Traversals
+_depth_ returns the depth of a specified node
 
-#level_order
+_balanced?_ checks if the tree is balanced
 
-#inorder
+_rebalance!_ if the tree is unbalanced, it rebalances the tree
 
-#preorder
+**Traversals**
 
-#postorder
+_level_order_
 
+_inorder_
 
+_preorder_
 
-#depth returns the depth of a specified node
-
-#balanced? checks if the tree is balanced
-
-#rebalance! if the tree is unbalanced, it rebalances the tree
+_postorder_
